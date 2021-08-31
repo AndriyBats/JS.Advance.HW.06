@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.container{
+    width: 900px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-storage, .block-purchase, .block-result{
+    width: 280px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.text-storage{
+   
+    margin: 15px 0 5px;
+}
+
+.input-text{
+    width: 100%;
+    height: 30px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.input-number{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+.input-number:focus{
+    box-shadow: 0 0 2px 2px skyblue;
+}
+
+.btn{
+    margin: 10px 0;
+    border: 0 solid #000;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(200,200,200);
+    font-size: 15px;
+}
+
+.btn:focus{
+    box-shadow: 0 0 2px 2px skyblue;  
+}
+.textarea{
+    padding: 5px;
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    background-color: rgb(220,220,220);
+    border: 1px solid silver;
+}

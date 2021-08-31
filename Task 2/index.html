@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS.Advance.HW/06/2</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <form name="FORM">
+        <div class="container">
+
+            <div class="block-storage">
+                <p class="text-storage">Баланс</p>
+                <input type="text" name="money" class="input-text" value="" disabled>
+                <p class="text-storage">Пиво</p>
+                <input type="text" name="beer" class="input-text" value="" disabled>
+                <p class="text-storage">Вино</p>
+                <input type="text" name="wine" class="input-text" value="" disabled>
+                <p class="text-storage">Пепсі</p>
+                <input type="text" name="pepsi" class="input-text" placeholder="" disabled>
+            </div>
+            <div class="block-purchase">
+                <p class="text-storage">Кількість</p>
+                <input type="number" name="number" class="input-number"> <br><br>
+                <input type="radio" name="drink" value="beer" placeholder="Пиво"> Пиво
+                <input type="radio" name="drink" value="wine" placeholder="Вино"> Вино
+                <input type="radio" name="drink" value="pepsi" placeholder="Пепсі"> Пепсі
+                <input type="button" name="add" class="btn" value="Додати">
+                <div class="textarea"></div>
+                <input type="button" name="buy" class="btn" value="Купити">
+            </div>
+            <div class="block-result">
+            </div>
+        </div>
+    </form>
+    <script src="./main.js" type="module"></script>
+    <script src="./shop.js" type="module"></script>
+</body>
+
+</html>
